@@ -1,0 +1,14 @@
+spring:
+  cloud:
+    function:
+      scan:
+        packages: org.debugroom.mynavi.sample.aws.sqs.app.function
+cloud:
+  aws:
+    stack:
+      auto: false
+    credentials:
+      instanceProfile: false
+      profileName:
+    region:
+      auto: false
